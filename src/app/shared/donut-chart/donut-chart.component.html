@@ -1,0 +1,16 @@
+<p>
+  donut-chart works!
+</p>
+
+
+<div class="counter">
+  <button (click)="decrement()">
+    Decrement
+  </button>
+  <input type="text" [value]="count">
+  <button (click)="increment()">
+    Increment
+  </button>
+</div>
+
+<nvd3 [options]="options" [data]="data" id="DonutChart"></nvd3>
